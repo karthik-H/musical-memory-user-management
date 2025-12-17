@@ -7,8 +7,8 @@ An application that manages user accounts and provides statistical analysis.
 - Add new users with username, email, and age
 - Update user email addresses
 - Deactivate user accounts
-- Calculate average age of active users
-- Categorize users into age groups (youth: 0-17, adult: 18-64, senior: 65+)
+- Read user accounts.
+- when reading users, Calculate average age of active users and Categorize users into age groups (youth: 0-17, adult: 18-64, senior: 65+) dynamically
 - Prevent duplicate usernames
 - Validate age range (0-150)
 
