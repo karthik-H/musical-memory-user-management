@@ -1,0 +1,43 @@
+{
+  "breakdowns": [
+    {
+      "id": "add_user",
+      "header": "Add New User",
+      "description": "Allows addition of a new user with username, email, and age to the system.",
+      "conditions": [
+        "Username must not duplicate any existing username",
+        "Age must be within the range 0-150"
+      ]
+    },
+    {
+      "id": "update_user_email",
+      "header": "Update User Email",
+      "description": "Allows updating the email address of an existing user.",
+      "conditions": []
+    },
+    {
+      "id": "deactivate_user_account",
+      "header": "Deactivate User Account",
+      "description": "Allows deactivation of a user account.",
+      "conditions": []
+    },
+    {
+      "id": "calculate_average_age_active_users",
+      "header": "Calculate Average Age of Active Users",
+      "description": "Calculates the average age of users who are currently active.",
+      "conditions": [
+        "Only active users are included in the calculation"
+      ]
+    },
+    {
+      "id": "categorize_users_by_age_group",
+      "header": "Categorize Users into Age Groups",
+      "description": "Categorizes users into age groups: youth (0-17), adult (18-64), senior (65+).",
+      "conditions": [
+        "Age groups are defined as: youth (0-17), adult (18-64), senior (65+)"
+      ]
+    }
+  ],
+  "last_updated": "2025-12-24T00:57:57.952303",
+  "version": "1.0"
+}
